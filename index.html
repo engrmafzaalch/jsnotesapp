@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+        <div id="header">
+                <h1 id="time"></h1>
+                <h2 id="period"></h2>
+                <h2 id="seconds"></h2>
+                <h1 id="date"></h1>
+                
+                <h1 id="hero-heading">Notes App</h1>
+                <h2 id="hero-subheading">&nbsp;Take Notes and Never Forget &nbsp;</h2>
+            </div>
+        <input class="text" id="search" type="text" placeholder="Filter Notes">
+    <br>
+    
+        <form  id="add-note">
+            <form action="#" name="addNoteForm" onsubmit="addFunction()">
+                <input class="text" id="createNote" type="text" name="createNote" placeholder="Add Notes">
+                <button type="submit" id="add-button">Add</button>
+            </form>
+        </form>
+  
+    <!-- <br><br><br> -->
+    <div id="notes">
+    
+    </div>
+    <a href="edit.html">edit</a>
+    
+
+    <script src="./js/date.js"></script>
+    
+    <script src="./js/script.js"></script>
+    <script src="./js/uuidv4.js"></script>
+</body>
+</html>
